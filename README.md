@@ -96,20 +96,6 @@ password:
 | POST `/signup` | 10 requests | 15 minutes |
 | All routes | 10,000 requests | 15 minutes |
 
----
 
-## 📚 Lecture Map
-
-| File | Lecture | Topic |
-|------|---------|-------|
-| `src/middlewares/auth.js` | Lecture 23 | JWT verification from cookie |
-| `src/controllers/auth.controller.js` | Lecture 23 | Authentication logic |
-| `src/middlewares/role.js` | Lecture 24 | Role-based authorization |
-| `src/middlewares/limiter.js` | Lecture 24 | Rate limiting |
-| `src/utils/cookiesService.js` | Lecture 24 | httpOnly cookie management |
-| `src/middlewares/xss.js` | Lecture 25 | XSS input sanitization |
-| `src/middlewares/validate.js` | Lecture 25 | express-validator error handler |
-| `src/middlewares/validators.js` | Lecture 25 | Validation chains |
-## 🔗 Postman Collection
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/30469576/2sBXwsKVPP)
