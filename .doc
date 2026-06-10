@@ -1,0 +1,45 @@
+////
+//install=>
+1 - express
+2 - nodemon
+3 - morgan
+4 - nodemon
+5 - dotenv
+6 - mongoose
+7 - jsonwebtoken
+8 - argon2
+9 - express - rate - limit
+10 - xss
+11 - cookie - parser
+12 - express - validator
+13 - cors
+    //model user 
+1 - name
+2 - email
+3 - password
+4 - role(user - admin)
+    ///
+middleware
+1 - id
+2 - notFound
+3 - auth
+4 - validate
+5 - errorHandler
+6 - limiter
+7 - xss
+8 - role
+    //Utils
+    //
+1 - asyncHandler
+2 - jwtService
+3 - passwordService
+4 - cookieService
+    //
+    /**to hshong password use argon2 hash on-way */
+    //to compare use verify\\//
+    //in login use genarate token by jwt sign and verify if is user auth
+    //storage token in cookies from backend
+    //middleware
+    //auth to check if the user logined
+    //after auth
+    //authorizaion role->user admin
